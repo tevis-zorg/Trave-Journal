@@ -1,0 +1,60 @@
+div.destionation-card {
+    display:run-in;
+    align-items:center;
+    /* justify-content: center; */
+    background-color: #ebffa4;
+    background-color: color-mix(in srgb, #ebffa4 75%, #5bfef9 25%);
+    /* border-radius: 18px; */
+  }
+  
+  img.location {
+    /* display:inline-block; */
+    justify-content: space-between;
+    margin-left: 10px;
+    border-radius: 18px;
+    width: 200px;
+    height: 250px;
+  }
+  
+  img.pin-loc {
+    width: 16px;
+    height: 16px;
+  }
+
+  div.place-card{
+    display:flex;
+    padding: 8px;
+  }
+
+  div > p, a {
+   /* JAPAN */
+  /* display: inline-flex; */
+  position: relative;
+  /* width: 40px;
+  height: 10px;
+  left: 195px;
+  top: 119px; */
+  
+  font-family: 'Inter';
+  font-style: normal;
+  }
+
+ span {
+    display: flow-root;
+    padding: 8px;
+ }
+
+  p{
+    color: #0c0015;
+    background-color:color-mix(in srgb, #0c0015 20%, #ebffa4 75%);
+    border-radius: 8px;
+  }
+  
+  a {
+    margin-left: 7px;
+    justify-content: space-between;
+    /* identical to box height */
+    text-decoration-line: underline;
+    
+    color: #918E9B;
+  }
