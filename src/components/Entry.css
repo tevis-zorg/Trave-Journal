@@ -1,9 +1,14 @@
+article.journal-entry {
+  display: run-in;
+}
+
 div.destionation-card {
-    display:run-in;
+    /* display:run-in; */
     align-items:center;
     /* justify-content: center; */
-    background-color: #ebffa4;
-    background-color: color-mix(in srgb, #ebffa4 75%, #5bfef9 25%);
+    background-color: #090c00;
+    background-color: color-mix(in srgb, #f1f1f1 75%, #03100f 25%);
+    background-image: linear-gradient(75deg, #d27ada, #003a3a, #80058b);
     /* border-radius: 18px; */
   }
   
@@ -19,6 +24,11 @@ div.destionation-card {
   img.pin-loc {
     width: 16px;
     height: 16px;
+  }
+
+  img:hover{
+    filter: drop-shadow(0 0 0.8rem #f83bff);
+    transition: 0.6s all ease-in-out 0.3s;
   }
 
   div.place-card{
@@ -42,11 +52,14 @@ div.destionation-card {
  span {
     display: flow-root;
     padding: 8px;
+    color:#0c0015
  }
 
   p{
+    display: block;
+    font-size: 15px;
     color: #0c0015;
-    background-color:color-mix(in srgb, #0c0015 20%, #ebffa4 75%);
+    background-color:color-gradient(in srgb, #551f7e 20%, #a4fffd 75%);
     border-radius: 8px;
   }
   
@@ -54,7 +67,11 @@ div.destionation-card {
     margin-left: 7px;
     justify-content: space-between;
     /* identical to box height */
-    text-decoration-line: underline;
-    
-    color: #918E9B;
+    text-decoration-line: underline;    
+    color: #120075;
+  }
+
+  a:hover {
+    filter: drop-shadow(0 1 .75rem #00e664 );
+    /* background-color: dodgerblue; */
   }
