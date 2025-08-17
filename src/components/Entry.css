@@ -2,14 +2,14 @@ article.journal-entry {
   display: flex;
 }
 
-div.destionation-card {
+div.destination-card {
     align-items:center;
     background-color: #090c00;
     background-color: color-mix(in srgb, #f1f1f1 75%, #03100f 25%);
     background-image: linear-gradient(75deg, #d27ada, #003a3a, #80058b);
   }
   
-  img.location {
+img.location {
     justify-content: space-between;
     margin-left: 10px;
     border-radius: 18px;
@@ -17,34 +17,34 @@ div.destionation-card {
     height: 250px;
   }
   
-  img.pin-loc {
+img.pin-loc {
     width: 16px;
     height: 16px;
   }
 
-  img:hover{
+img:hover{
     filter: drop-shadow(0 0 0.8rem #f83bff);
     transition: 0.6s all ease-in-out 0.3s;
   }
 
-  div.place-card{
+div.place-card{
     display:flex;
     padding: 8px;
   }
 
-  div > p, a {
+div > p, a {
   position: relative;
   font-family: 'Inter';
   font-style: normal;
   }
 
- span{
+span{
     display: flow-root;
     padding: 8px;
     color:#0c0015
  }
 
-  p{
+p{
     display: block;
     font-size: 15px;
     color: #0c0015;
@@ -52,13 +52,13 @@ div.destionation-card {
     border-radius: 8px;
   }
   
-  a {
+a {
     margin-left: 7px;
     justify-content: space-between;
     text-decoration-line: underline;    
     color: #00fffb;
   }
 
-  a:hover {
+a:hover {
     filter: drop-shadow(0 0 0.75rem #05ff71 );
   }

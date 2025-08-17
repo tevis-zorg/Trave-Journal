@@ -1,4 +1,4 @@
-import locMarker from '../../assets/location-marker.svg'
+import locMarker from '../../assets/loc-marker.svg'
 
 const Destinations = (props) => {
   return (
@@ -14,7 +14,7 @@ const Destinations = (props) => {
 
               <img src={locMarker} alt="" className="pin-loc" />
 
-              {data.destination}
+              {data.country}
 
               <a href={data.location}>
                 View on Google Maps
